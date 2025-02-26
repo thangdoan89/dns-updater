@@ -1,0 +1,102 @@
+{
+    "result": [
+        {
+            "id": "63bbe637aa5d2dde317bc4fd88af7939",
+            "zone_id": "d874dd298c0f6b43a0e579577facc892",
+            "zone_name": "rackoon.uk",
+            "name": "*.rackoon.uk",
+            "type": "A",
+            "content": "1.53.205.227",
+            "proxiable": true,
+            "proxied": true,
+            "ttl": 1,
+            "settings": {},
+            "meta": {},
+            "comment": "For MightyServer",
+            "tags": [],
+            "created_on": "2025-02-19T17:18:31.291997Z",
+            "modified_on": "2025-02-19T17:18:31.291997Z",
+            "comment_modified_on": "2025-02-19T17:18:31.291997Z"
+        },
+        {
+            "id": "f8a82969b9948dfc82bca84429b48585",
+            "zone_id": "d874dd298c0f6b43a0e579577facc892",
+            "zone_name": "rackoon.uk",
+            "name": "christian-doan.rackoon.uk",
+            "type": "CNAME",
+            "content": "christian-doan.pages.dev",
+            "proxiable": true,
+            "proxied": true,
+            "ttl": 1,
+            "settings": {
+                "flatten_cname": false
+            },
+            "meta": {},
+            "comment": null,
+            "tags": [],
+            "created_on": "2024-07-17T08:59:39.108537Z",
+            "modified_on": "2024-07-17T08:59:39.108537Z"
+        },
+        {
+            "id": "e36342210f63f41c51371d929e3191e8",
+            "zone_id": "d874dd298c0f6b43a0e579577facc892",
+            "zone_name": "rackoon.uk",
+            "name": "_dmarc.rackoon.uk",
+            "type": "TXT",
+            "content": "\"v=DMARC1; p=reject; sp=reject; adkim=s; aspf=s; rua=mailto:thangdoan.dev@gmail.com\"",
+            "proxiable": false,
+            "proxied": false,
+            "ttl": 1,
+            "settings": {},
+            "meta": {},
+            "comment": null,
+            "tags": [],
+            "created_on": "2025-02-19T17:25:56.550126Z",
+            "modified_on": "2025-02-19T17:25:56.550126Z"
+        },
+        {
+            "id": "30e97395dd83442482f53fad6f487c20",
+            "zone_id": "d874dd298c0f6b43a0e579577facc892",
+            "zone_name": "rackoon.uk",
+            "name": "*._domainkey.rackoon.uk",
+            "type": "TXT",
+            "content": "\"v=DKIM1; p=\"",
+            "proxiable": false,
+            "proxied": false,
+            "ttl": 1,
+            "settings": {},
+            "meta": {},
+            "comment": null,
+            "tags": [],
+            "created_on": "2025-02-19T17:25:56.713839Z",
+            "modified_on": "2025-02-19T17:25:56.713839Z"
+        },
+        {
+            "id": "92833b7254bbd2dc3ec3fba706db873c",
+            "zone_id": "d874dd298c0f6b43a0e579577facc892",
+            "zone_name": "rackoon.uk",
+            "name": "rackoon.uk",
+            "type": "TXT",
+            "content": "\"v=spf1 -all\"",
+            "proxiable": false,
+            "proxied": false,
+            "ttl": 1,
+            "settings": {},
+            "meta": {},
+            "comment": null,
+            "tags": [],
+            "created_on": "2025-02-19T17:25:56.587141Z",
+            "modified_on": "2025-02-19T17:25:56.587141Z"
+        }
+    ],
+    "success": true,
+    "errors": [],
+    "messages": [],
+    "result_info": {
+        "page": 1,
+        "per_page": 100,
+        "count": 5,
+        "total_count": 5,
+        "total_pages": 1
+    }
+}

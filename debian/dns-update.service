@@ -1,0 +1,15 @@
+[Unit]
+Description=DNS Update Service
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=exec
+Restart=always
+RestartSec=3600
+User=root
+ExecStart=/usr/bin/dns-update
+EnvironmentFile=/etc/dns-update/.env
+
+[Install]
+WantedBy=multi-user.target
