@@ -16,6 +16,20 @@ ZONE=<ZONE> #Take a look at your personal dashboard in a specific domain that yo
 
 ## Contribution
 
+### Pre-requisites
+
+1. Rust
+2. cargo-deb
+
+### Installation
+
+Please take a look at `build.sh`, it will show how it's done.
+
+After you created your `.deb` package, `scp` to your server and run
+```sh
+$ dpkg -i <your-package-name>.deb
+```
+
 Feel free to download, rewrite it.
 
 HOWEVER, DON'T COMMERCIALIZE IT. EXCEPT ME
